@@ -174,10 +174,9 @@ button {
 
 .hero__list-item-info {
     margin-left: 10px;
-    font-family: Sora, sans-serif;
+    font-family: Sora;
     font-size: 1.4rem;
     font-weight: 600;
-    line-height: 1;
-    margin-top: 2px;
-    color: #181e52;
+
+    text-align: left;
 }

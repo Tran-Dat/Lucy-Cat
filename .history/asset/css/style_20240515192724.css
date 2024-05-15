@@ -177,7 +177,6 @@ button {
     font-family: Sora, sans-serif;
     font-size: 1.4rem;
     font-weight: 600;
-    line-height: 1;
-    margin-top: 2px;
-    color: #181e52;
+
+    text-align: left;
 }

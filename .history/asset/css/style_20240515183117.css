@@ -36,7 +36,7 @@ button {
 
 .container {
     width: 1170px;
-    max-width: calc(100% - 135px);
+    max-width: calc(100% - 48px);
     margin: 0 auto;
 }
 
@@ -61,7 +61,7 @@ button {
 
 /* ------------------------------- Header ---------------------------*/
 #header {
-    padding: 26px 0;
+    padding: 26px 135px;
 }
 
 .header__inner {
@@ -105,79 +105,19 @@ button {
     align-items: center;
 }
 
-.hero__media {
-    display: flex;
-}
-
 .hero__img-wrap {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
     position: relative;
     height: 488px;
     width: 388px;
     background-color: #ffa78d;
-    border: 3px solid #fff;
+    border: 3px solid #ffa78d;
     border-radius: 16px;
 }
 
 .hero__img {
     max-width: 100%;
     max-height: 100%;
-    border-radius: inherit;
 }
 
 .hero__decor {
-    position: absolute;
-}
-
-.hero__decor-left {
-    left: -58px;
-    bottom: 9.5px;
-    z-index: -1;
-}
-
-.hero__decor-right {
-    top: 17px;
-    right: -39px;
-    z-index: -1;
-}
-
-.hero__img-wrap-small {
-    align-self: flex-end;
-    width: 186px;
-    height: 244px;
-    margin: 0 0 -58px -58px;
-    background-color: #faa7ad;
-
-    border: 2px solid #f7dddf;
-}
-
-.hero__list {
-    width: 250px;
-    height: 156px;
-    padding: 18px 14px;
-    border: 2px solid #fff;
-    border-radius: 10px;
-}
-
-.hero__list-item {
-    display: flex;
-}
-
-.hero__list-item-thum {
-    height: 40px;
-    width: 40px;
-    background-color: #fec23f;
-    object-fit: cover;
-}
-
-.hero__list-item-info {
-    margin-left: 10px;
-    font-family: Sora, sans-serif;
-    font-size: 1.4rem;
-    font-weight: 600;
-    line-height: 1;
-    margin-top: 2px;
-    color: #181e52;
 }

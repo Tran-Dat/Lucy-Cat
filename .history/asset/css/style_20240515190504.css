@@ -124,7 +124,6 @@ button {
 .hero__img {
     max-width: 100%;
     max-height: 100%;
-    border-radius: inherit;
 }
 
 .hero__decor {
@@ -150,34 +149,8 @@ button {
     margin: 0 0 -58px -58px;
     background-color: #faa7ad;
 
-    border: 2px solid #f7dddf;
+    border: 2px solid rgba(#fff, 0.65);
 }
 
-.hero__list {
-    width: 250px;
-    height: 156px;
-    padding: 18px 14px;
-    border: 2px solid #fff;
-    border-radius: 10px;
-}
-
-.hero__list-item {
-    display: flex;
-}
-
-.hero__list-item-thum {
-    height: 40px;
-    width: 40px;
-    background-color: #fec23f;
-    object-fit: cover;
-}
-
-.hero__list-item-info {
-    margin-left: 10px;
-    font-family: Sora, sans-serif;
-    font-size: 1.4rem;
-    font-weight: 600;
-    line-height: 1;
-    margin-top: 2px;
-    color: #181e52;
+.hero__img-small {
 }

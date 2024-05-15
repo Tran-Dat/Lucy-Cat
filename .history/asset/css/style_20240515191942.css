@@ -161,23 +161,8 @@ button {
     border-radius: 10px;
 }
 
-.hero__list-item {
-    display: flex;
-}
-
 .hero__list-item-thum {
     height: 40px;
     width: 40px;
-    background-color: #fec23f;
-    object-fit: cover;
-}
-
-.hero__list-item-info {
-    margin-left: 10px;
-    font-family: Sora, sans-serif;
-    font-size: 1.4rem;
-    font-weight: 600;
-    line-height: 1;
-    margin-top: 2px;
-    color: #181e52;
+    color: #fec23f;
 }
